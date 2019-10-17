@@ -3,7 +3,7 @@
 $myval = $_POST['variable'];
 
 
-$file = fopen("leaederboard.txt","a");
+$file = fopen("leaderboard.txt","a");
 echo fwrite($file, $myval);
 fclose($file);
 ?>
