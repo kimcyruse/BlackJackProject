@@ -1,0 +1,172 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.clearfix:after
+{
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix
+{ display: inline-block; }
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+html {
+  font-size: 8px;
+}
+
+body{
+  padding: 1rem;
+  background: #4285F4;
+  color: #f7f7f7;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.buttons {
+  width: 100%;
+  height: 5rem;
+}
+
+.button {
+  float: left;
+  color: #373737;
+  height: 5rem;
+  margin-right: 6%;
+  line-height: 5rem;
+  border: 2px solid #373737;
+  border-radius: .5rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#playHit {
+  background-color: #EA4335;
+  width: 47%
+}
+
+#playStay {
+  background-color: #FBBC05;
+  width: 47%;
+
+}
+
+#nextround{
+  background-color: #7B0099;
+  width: 100%
+}
+
+#startover {
+  background-color: #292F33;
+  width: 100%
+}
+
+
+.button.last {
+  margin-right: 0;
+}
+
+.button:hover {
+  background: #373737;
+  color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+  cursor: pointer;
+}
+
+.button.big {
+  width: 100%;
+  background-color: #34A853;
+
+}
+
+.deal {
+  margin-bottom: .5rem;
+}
+
+.computer-value {
+  text-align: right;
+  font-size: 2.5rem;
+}
+
+.player-value {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: .5rem;
+
+}
+
+.title div {
+  float: left;
+  width: 50%;
+}
+
+.result {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.hide {
+  display: none;
+}
+
+#loss {
+  float: left;
+  text-align: left;
+  width: 50%;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+#wins{
+  float: left;
+  text-align: right;
+  width: 50%;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.card-section {
+  float: left;
+  width: 50%;
+  height: 10rem;
+}
+
+.single-left {
+  background: #f7f7f7;
+  color: #373737;
+  float: left;
+  width: 6.5rem;
+  height: 10rem;
+  border: 2px solid #373737;
+  border-radius: .5rem;
+  margin-left: -4.5rem;
+  padding: .35rem;
+}
+
+.facevalue {
+  font-size: 1.35rem;
+}
+
+.first {
+  margin-left: 0;
+  margin-left: 0;
+}
+
+.red {
+  color: #e75757;
+}
